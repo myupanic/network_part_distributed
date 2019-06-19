@@ -1,0 +1,10 @@
+server1/server1_main.c: In function ‘getFileRequest’:
+server1/server1_main.c:135:18: warning: implicit declaration of function ‘readline’; did you mean ‘Readline’? [-Wimplicit-function-declaration]
+  int charsRead = readline(socket, result, MAXCOMMANDNAME);
+                  ^~~~~~~~
+                  Readline
+server2/server2_main.c: In function ‘getFileRequest’:
+server2/server2_main.c:139:18: warning: implicit declaration of function ‘readline’; did you mean ‘Readline’? [-Wimplicit-function-declaration]
+  int charsRead = readline(socket, result, MAXCOMMANDNAME);
+                  ^~~~~~~~
+                  Readline
